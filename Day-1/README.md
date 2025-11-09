@@ -1,31 +1,32 @@
-# 🧠 Day 1 – SQL Fundamentals: SELECT Statement
+# 🧠 Day 1 – Introduction to SQL & SELECT Statement
 
 ## 📘 Topics Covered
-- Introduction to SQL  
-- Basic `SELECT` statements  
-- Retrieving specific columns  
-- Viewing data structure  
-- Using `LIMIT` to control output  
+**Topics:** Basic `SELECT`, column selection, viewing data structure  
+
+SQL (Structured Query Language) is the standard language for managing relational databases.  
+The `SELECT` statement is your primary tool for retrieving data.
+
+### 🔑 Key Concepts
+- Tables store data in rows (records) and columns (fields)  
+- `SELECT` defines which columns to retrieve  
+- `FROM` specifies which table to query  
+- Use a semicolon (`;`) to end SQL statements  
 
 ---
 
 ## 🧩 Practice Questions
-1. Retrieve all columns from the `patients` table  
-2. Select only `patient_id`, `name`, and `age` columns from the `patients` table  
-3. Display the first 10 records from the `services_weekly` table  
 
----
-
-## 💡 Key Learnings
-- `SELECT` is used to extract data from a table  
-- Always specify only the columns you need (avoid `SELECT *` in production)  
-- Use aliases (`AS`) for readability  
-- SQL keywords are case-insensitive but written in uppercase for clarity  
+1. Retrieve all columns from the `patients` table.  
+2. Select only the `patient_id`, `name`, and `age` columns from the `patients` table.  
+3. Display the first 10 records from the `services_weekly` table.  
 
 ---
 
 ## 🚀 Daily Challenge
-**Task:** List all unique hospital services available in the hospital.  
+
+**Question:** List all unique hospital services available in the hospital.  
+
+### ✅ Solution:
 
 ```sql
 SELECT DISTINCT service
