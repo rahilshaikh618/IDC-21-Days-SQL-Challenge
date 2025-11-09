@@ -287,7 +287,7 @@ Thanks to **Indian Data Club (IDC)** and **DPDzero** for organizing the challeng
 
 ## 🔗 Connect
 
-* LinkedIn: [https://www.linkedin.com/in/rahilshaikh618](https://www.linkedin.com/in/rahilshaikh618)
+* LinkedIn: [https://www.linkedin.com/in/rahilshaikh618](www.linkedin.com/in/mohammadrahil142)
 * GitHub: [https://github.com/rahilshaikh618](https://github.com/rahilshaikh618)
 
 ---
