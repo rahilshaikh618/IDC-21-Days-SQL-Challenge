@@ -23,6 +23,7 @@ Welcome to the **21 Days SQL Challenge** repository — a structured, hands-on j
 
 **Topics:** Basic SELECT, column selection, viewing data structure
 
+
 **Practice:**
 
 1. Retrieve all columns from `patients`.
@@ -287,7 +288,7 @@ Thanks to **Indian Data Club (IDC)** and **DPDzero** for organizing the challeng
 
 ## 🔗 Connect
 
-* LinkedIn: [https://www.linkedin.com/in/rahilshaikh618](www.linkedin.com/in/mohammadrahil142)
+* LinkedIn: [https://www.linkedin.com/in/mohammadrahil142](https://www.linkedin.com/in/mohammadrahil142)
 * GitHub: [https://github.com/rahilshaikh618](https://github.com/rahilshaikh618)
 
 ---
