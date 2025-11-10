@@ -31,3 +31,8 @@ The `SELECT` statement is your primary tool for retrieving data.
 ```sql
 SELECT DISTINCT service
 FROM patients;
+```
+---
+## 🔗 LinkedIn Post
+Check out my LinkedIn post here 👉  
+[Day 1 – SQL Challenge](https://www.linkedin.com/posts/mohammadrahil142_sqlwithidc-sqlwithidc-idcwithsql-activity-7391189639354826752-_e1n)
