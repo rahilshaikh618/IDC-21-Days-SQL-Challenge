@@ -47,5 +47,5 @@ WHERE service = 'Surgery'
 ## 🔗 LinkedIn Post
 
 **Check out my detailed post and daily progress here 👉**
-[Day 2 – SQL Challenge](https://www.linkedin.com/posts/mohammadrahil142_idcwithsql-learnsql-sqlpractice-activity-7392629188492554240-rv6Q?utm_source=social_share_send&utm_medium=member_desktop_web&rcm=ACoAADocHhYBCyW3F2jiXG5MaOb0U1lc6mDQQJI)
+[Day 2 – SQL Challenge](https://www.linkedin.com/posts/mohammadrahil142_21dayssqlchallenge-21dayssqlchallenge-sqlwithidc-activity-7392495028599844864-vutS?utm_source=social_share_send&utm_medium=member_desktop_web&rcm=ACoAADocHhYBCyW3F2jiXG5MaOb0U1lc6mDQQJI)
 
