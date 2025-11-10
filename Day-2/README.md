@@ -1,12 +1,10 @@
 # 🧠 Day 2 – Filtering Data with WHERE Clause
 
-## 📅 Date
-**Day 2 (04/11):** Filtering Data with WHERE Clause
 
 ---
 
 ## 📘 Topics Covered ##
-**Topics:** `WHERE` clause, comparison operators, basic filtering  
+Topics: `WHERE` clause, comparison operators, basic filtering  
 ---
 ## 📚 Reading & Resources ##
 
