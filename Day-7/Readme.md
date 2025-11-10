@@ -60,6 +60,7 @@ HAVING
 ORDER BY 
     total_patients_refused DESC;
 ```
+---
 ## 🔗 LinkedIn Post
 
 **Check out my detailed post and SQL challenge update here 👉**
