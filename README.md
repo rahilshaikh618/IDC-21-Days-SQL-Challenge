@@ -14,7 +14,7 @@ Welcome to the **21 Days SQL Challenge** repository — a structured, hands-on j
 
 * Submission form: [https://forms.office.com/r/CsF3zaz0jL](https://forms.office.com/r/CsF3zaz0jL)
 * Discord (Doubt channel): [https://discord.gg/6gUG8KfPgx](https://discord.gg/6gUG8KfPgx)
-
+* DataSet Link: [https://www.kaggle.com/datasets/jaderz/hospital-beds-management](https://www.kaggle.com/datasets/jaderz/hospital-beds-management)
 ---
 
 ## **Days 1-4**: SQL Fundamentals (SELECT, WHERE, ORDER BY, LIMIT)
