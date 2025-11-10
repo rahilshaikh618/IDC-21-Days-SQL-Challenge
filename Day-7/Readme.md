@@ -24,9 +24,13 @@ HAVING aggregate_condition;
 ### 💡 **Tips & Tricks**
 
 ✅ Execution Order: WHERE → GROUP BY → HAVING → ORDER BY
+
 ✅ Use WHERE for row filtering, HAVING for group filtering
+
 ✅ HAVING requires GROUP BY (in most databases)
+
 ✅ You can reference column aliases in HAVING (depends on SQL engine)
+
 ---
 ## 🧩 Practice Questions
 1. Find services that have admitted more than 500 patients in total.
