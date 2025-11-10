@@ -70,4 +70,4 @@ LIMIT 5 OFFSET 2;
 ## 🔗 LinkedIn Post
 
 **Check out my detailed post and SQL challenge update here 👉**
-[Day 4 – SQL Challenge](https://www.linkedin.com/posts/mohammadrahil142_idcwithsql-sqlchallenge-learnsql-activity-7392520114690121729-72n0?utm_source=social_share_send&utm_medium=member_desktop_web&rcm=ACoAADocHhYBCyW3F2jiXG5MaOb0U1lc6mDQQJI)
+[Day 4 – SQL Challenge](https://www.linkedin.com/posts/mohammadrahil142_idcwithsql-learnsql-sqlpractice-activity-7392629188492554240-rv6Q?utm_source=social_share_send&utm_medium=member_desktop_web&rcm=ACoAADocHhYBCyW3F2jiXG5MaOb0U1lc6mDQQJI)
