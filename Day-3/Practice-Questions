@@ -1,0 +1,14 @@
+1. List all patients sorted by age in descending order.
+SELECT patient_id, name, age
+FROM patients
+ORDER BY age DESC;
+
+2. Show all services_weekly data sorted by week number ascending and patients_request descending.
+SELECT week_number, service, patients_requested
+FROM services_weekly
+ORDER BY week_number ASC, patients_requested DESC;
+
+3. Display staff members sorted alphabetically by their names.
+SELECT staff_id, staff_name, service
+FROM staff
+ORDER BY staff_name ASC;
