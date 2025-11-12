@@ -86,4 +86,4 @@ WHERE CHAR_LENGTH(name) > 10;
 ## 🔗 LinkedIn Post
 
 **Check out my detailed post and SQL challenge update here 👉**
-[Day 7 – SQL Challenge](https://www.linkedin.com/posts/mohammadrahil142_sqlwithidc-21dayssqlchallenge-sql-activity-7394259751070576641-AWIa?utm_source=social_share_send&utm_medium=member_desktop_web&rcm=ACoAADocHhYBCyW3F2jiXG5MaOb0U1lc6mDQQJI)
+[Day 8 – SQL Challenge](https://www.linkedin.com/posts/mohammadrahil142_sqlwithidc-21dayssqlchallenge-sql-activity-7394259751070576641-AWIa?utm_source=social_share_send&utm_medium=member_desktop_web&rcm=ACoAADocHhYBCyW3F2jiXG5MaOb0U1lc6mDQQJI)
