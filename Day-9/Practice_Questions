@@ -1,0 +1,20 @@
+#1. Extract the year from all patient arrival dates.
+select arrival_date, year(arrival_date)
+from patients;
+
+#2. Calculate the length of stay for each patient (departure_date - arrival_date).
+select arrival_date, departure_date, datediff(departure_date,arrival_date) as total_stay
+from patients;
+
+#3. Find all patients who arrived in a specific month.
+select patient_id, name, arrival_date
+from patients
+where month(arrival_date) = 10;
+
+
+
+
+
+
+
+
