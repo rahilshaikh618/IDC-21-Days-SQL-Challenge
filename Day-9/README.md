@@ -100,4 +100,4 @@ ORDER BY avg_stay_days DESC;
 ## 🔗 LinkedIn Post
 
 **Check out my detailed post and SQL challenge update here 👉**
-[Day 9 – SQL Challenge]()
+[Day 9 – SQL Challenge](https://www.linkedin.com/posts/mohammadrahil142_sqlwithidc-indiandataclub-dpdzero-activity-7394282220305244160-u5xK?utm_source=social_share_send&utm_medium=member_desktop_web&rcm=ACoAADocHhYBCyW3F2jiXG5MaOb0U1lc6mDQQJI)
