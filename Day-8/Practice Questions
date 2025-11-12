@@ -1,0 +1,12 @@
+#1. Convert all patient names to uppercase.
+use hospital;
+select name, upper(name) as patient_name
+from patients;
+
+#2. Find the length of each staff member's name.
+SELECT staff_name, CHAR_LENGTH(staff_name) AS name_length
+FROM staff;
+
+#3. Concatenate staff_id and staff_name with a hyphen separator.
+select concat(staff_id,"-",  staff_name) as staff_details
+from staff;
