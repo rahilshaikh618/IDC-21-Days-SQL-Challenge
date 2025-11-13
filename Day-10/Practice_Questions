@@ -1,0 +1,28 @@
+#1. Categorise patients as 'High', 'Medium', or 'Low' satisfaction based on their scores.
+use hospital;
+select patient_id, name,satisfaction,
+case
+ when satisfaction >= 80 then 'High'
+ when satisfaction >= 40 then 'Medium'
+ else 'Low'
+ end as patient_satisfaction
+ from patients;
+ 
+#2. Label staff roles as 'Medical' or 'Support' based on role type.
+ select staff_name, role, 
+ case 
+ when role = "doctor" then 'Medical'
+ else 'Support'
+ end as role_type
+ from staff;
+
+#3. Create age groups for patients (0-18, 19-40, 41-65, 65+).
+SELECT name, jage,
+    CASE 
+        WHEN age BETWEEN 0 AND 18 THEN '0-18'
+        WHEN age BETWEEN 19 AND 40 THEN '19-40'
+        WHEN age BETWEEN 41 AND 65 THEN '41-65'
+        ELSE '65+'
+    END AS age_group
+FROM patients;
+
