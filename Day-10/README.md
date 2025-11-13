@@ -83,4 +83,4 @@ ORDER BY avg_satisfaction DESC;
 ## 🔗 LinkedIn Post
 
 **Check out my detailed post and SQL challenge update here 👉**
-[Day 9 – SQL Challenge](https://ww)
+[Day 9 – SQL Challenge](https://www.linkedin.com/posts/mohammadrahil142_sqlwithidc-21daysqlchallenge-indiandataclub-activity-7394674694060273664-nCji?utm_source=social_share_send&utm_medium=member_desktop_web&rcm=ACoAADocHhYBCyW3F2jiXG5MaOb0U1lc6mDQQJI)
