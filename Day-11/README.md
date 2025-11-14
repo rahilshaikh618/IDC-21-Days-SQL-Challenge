@@ -55,6 +55,7 @@ Remove duplicates early for cleaner downstream processing.
 **Question:** Find all unique combinations of service and event type from the services_weekly table where events are not null or none, along with the count of occurrences for each combination. Order by count descending.
 
 **✅ Solution:**
+```
 select service, event, count(*) as occurence
  from services_weekly
  where event is not null
