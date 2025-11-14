@@ -69,4 +69,4 @@ ORDER BY occurrences DESC;
 ---
 ## 🔗 LinkedIn Post
 Check out my LinkedIn post here 👉  
-[Day 11 – SQL Challenge]()
+[Day 11 – SQL Challenge](https://www.linkedin.com/posts/mohammadrahil142_sql-learningjourney-sqlchallenge-activity-7395172472045723648-qkFL?utm_source=social_share_send&utm_medium=member_desktop_web&rcm=ACoAADocHhYBCyW3F2jiXG5MaOb0U1lc6mDQQJI)
