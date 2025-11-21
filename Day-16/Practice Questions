@@ -1,0 +1,26 @@
+#1. Find patients who are in services with above-average staff count.
+select p.patient_id, p.name, p.service, p.age from patients p
+join (select service, count(*) as staff_count from staff group by service) sc
+on p.service = sc.service
+where 
+sc.staff_count > (select avg(staff_count) from (select service, count(*) as staff_count from staff group by service) avg_sc);
+
+#2. List staff who work in services that had any week with patient satisfaction below 70.
+select distinct s.staff_id, s.staff_name, s.service from staff s
+join  services_weekly as sw
+on s.service = sw.service
+where sw.patient_satisfaction < 70;
+
+#3. Show patients from services where total admitted patients exceed 1000.
+select p.patient_id, p.name, p.service from patients p
+join 
+(select service, sum(patients_admitted) as total_patients_admitted from services_weekly group by service) sw
+on 
+p.service = sw.service
+where sw.total_patients_admitted > 1000;
+
+
+
+
+
+
