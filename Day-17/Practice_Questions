@@ -1,0 +1,26 @@
+#1. Show each patient with their service's average satisfaction as an additional column.
+use hospital;
+select p.patient_id,p.name,p.service,
+p.satisfaction AS patient_satisfaction,
+sw.avg_service_satisfaction
+from patients p
+join ( select service, AVG(patient_satisfaction) AS avg_service_satisfaction
+    from services_weekly
+    group by service) sw
+    on p.service = sw.service;
+
+#2. Create a derived table of service statistics and query from it.
+select stats.service, stats.total_admitted, stats.total_refused, stats.avg_satisfaction
+from (select service,
+        sum(patients_admitted) as total_admitted,
+        sum(patients_refused) as total_refused,
+        avg(patient_satisfaction) as avg_satisfaction
+    from services_weekly group by service) stats;
+
+#3. Display staff with their service's total patient count as a calculated field.
+select s.staff_id, s.staff_name, s.service, sw.total_patients
+FROM staff s
+join ( select service, SUM(patients_admitted) as total_patients
+from services_weekly
+group by service) sw
+ON s.service = sw.service;
