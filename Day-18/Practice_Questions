@@ -1,0 +1,14 @@
+#1. Combine patient names and staff names into a single list.
+select name from patients
+union 
+select staff_name from staff;
+
+#2. Create a union of high satisfaction patients (>90) and low satisfaction patients (<50).
+select name, satisfaction from patients where satisfaction > 90
+union 
+select name, satisfaction from patients where satisfaction < 50;
+
+#3. List all unique names from both patients and staff tables.
+select name from patients
+union
+select staff_name from staff;
