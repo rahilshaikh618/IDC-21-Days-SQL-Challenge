@@ -1,0 +1,19 @@
+#1. Calculate running total of patients admitted by week for each service.
+select service, week, patients_admitted,
+sum(patients_admitted) over ( partition by service order by week) as total_running_sum
+from services_weekly  
+order by service, week;
+
+#2. Find the moving average of patient satisfaction over 4-week periods.
+select service, week, patient_satisfaction, 
+avg(patient_satisfaction) over (partition by service order by week
+rows between 3 preceding and current row) as moving_avg_4week
+from services_weekly 
+order by service, week;
+
+#3. Show cumulative patient refusals by week across all services.
+select week, sum(patients_refused) as weekly_refusal,
+sum(sum(patients_refused)) over (order by week) as cumlative_refusals
+from services_weekly 
+group by week
+order by week;
