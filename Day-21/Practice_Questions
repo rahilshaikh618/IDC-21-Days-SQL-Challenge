@@ -1,0 +1,55 @@
+#1. Create a CTE to calculate service statistics, then query from it.
+with service_stats as (select service, sum(patients_admitted) as total_admissions,
+sum(patients_refused) as total_refusals,
+avg(patient_satisfaction) as avg_satisfaction
+from services_weekly
+group by service)
+select  * from service_stats
+order by total_admissions desc;
+
+#2. Use multiple CTEs to break down a complex query into logical steps.
+with weekly_totals as (select service,week,
+ patients_admitted,
+ patients_refused,
+patient_satisfaction
+from services_weekly),
+service_summary as (select service,
+sum(patients_admitted) as total_admissions,
+ avg(patient_satisfaction) as avg_satisfaction
+from weekly_totals
+group by service),
+ranked_services as (select service, total_admissions, avg_satisfaction,
+rank() over (order by total_admissions desc) as admission_rank
+from service_summary)
+select * from ranked_services
+order by admission_rank;
+
+#3. Build a CTE for staff utilization and join it with patient data.
+with staff_util as (select s.service,
+count(DISTINCT s.staff_id) as total_staff,
+avg(ss.present)as avg_presence
+from staff s
+left join staff_schedule ss
+on s.staff_id = ss.staff_id
+group by s.service),
+patient_info as (select service,
+count(*) as patient_count,
+avg(age) as avg_patient_age
+from patients
+group by service)
+select
+    su.service,
+    su.total_staff,
+    su.avg_presence,
+    pi.patient_count,
+    pi.avg_patient_age
+from staff_util su
+left join patient_info pi
+on su.service = pi.service
+order by su.service;
+
+
+
+
+
+
