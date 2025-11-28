@@ -3,7 +3,7 @@
 Topics: CTEs, Multi-step Queries, Analytical Pipelines
 
 ---
-##🔍 Overview
+## 🔍 Overview
 
 Day 21 marks the final lesson of the SQL challenge, focusing on Common Table Expressions (CTEs) — one of the most powerful tools for organizing and structuring complex SQL queries.
 
