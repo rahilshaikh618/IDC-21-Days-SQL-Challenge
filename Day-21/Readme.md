@@ -17,7 +17,7 @@ CTEs allow you to break large problems into smaller, logical steps and build ana
 A CTE is a temporary named result set defined using the WITH keyword.
 It helps structure multi-step logic and improves readability and maintainability.
 
-** Key benefits:**
+**Key benefits:**
 
 More readable complex queries
 
