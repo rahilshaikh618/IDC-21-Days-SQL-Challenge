@@ -192,7 +192,9 @@ Check out my LinkedIn post here 👉
 ## 🙋‍♂️ About Me (Creator)
 
 Name: Mohd Rahil
+
 Role: Data Analyst | SQL Enthusiast | Problem Solver
+
 Interested in: Data Analytics, Business Intelligence, SQL, DBMS, Data Storytelling
 
 [LinkedIn](www.linkedin.com/in/mohammadrahil142)
