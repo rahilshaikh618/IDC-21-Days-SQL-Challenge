@@ -1,0 +1,14 @@
+-- All evidence records
+SELECT *
+FROM evidence
+ORDER BY found_time;
+
+-- Evidence related to CEO Office (to confirm room & rough time)
+SELECT *
+FROM evidence
+WHERE room = 'CEO Office'
+ORDER BY found_time;
+
+-- If your room name differs, first check:
+SELECT DISTINCT room
+FROM evidence;
