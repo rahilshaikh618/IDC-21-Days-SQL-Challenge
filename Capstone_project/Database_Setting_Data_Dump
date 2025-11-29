@@ -1,6 +1,11 @@
+--1. First Run this
 create database sql_murder_mystery;
 
--- DROP TABLES if exist
+--2. Then this
+use  sql_murder_mystery;
+
+--3.Then this
+--DROP TABLES if exist
 DROP TABLE IF EXISTS employees, keycard_logs, calls, alibis, evidence;
 
 -- Employees Table
