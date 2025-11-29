@@ -1,0 +1,40 @@
+-- Raw keycard logs for CEO Office around that time
+SELECT *
+FROM keycard_logs
+WHERE room = 'CEO Office'
+  AND entry_time BETWEEN '2025-10-15 20:50:00' AND '2025-10-15 21:10:00'
+ORDER BY entry_time;
+
+-- Join with employees to get names (initial suspects)
+SELECT
+    e.employee_id,
+    e.name,
+    e.department,
+    e.role,
+    k.room,
+    k.entry_time,
+    k.exit_time
+FROM keycard_logs k
+JOIN employees e
+  ON k.employee_id = e.employee_id
+WHERE k.room = 'CEO Office'
+  AND k.entry_time BETWEEN '2025-10-15 20:50:00' AND '2025-10-15 21:10:00'
+ORDER BY k.entry_time;
+
+
+-- If you want who was present exactly at 21:00:00:
+
+SELECT
+    e.employee_id,
+    e.name,
+    e.department,
+    e.role,
+    k.room,
+    k.entry_time,
+    k.exit_time
+FROM keycard_logs k
+JOIN employees e
+  ON k.employee_id = e.employee_id
+WHERE k.room = 'CEO Office'
+  AND k.entry_time <= '2025-10-15 21:00:00'
+  AND k.exit_time   >= '2025-10-15 21:00:00';
