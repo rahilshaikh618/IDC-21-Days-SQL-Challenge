@@ -1,0 +1,11 @@
+-- See what tables exist
+SHOW TABLES;
+
+-- Quick peek into each table
+
+SELECT * FROM employees     LIMIT 5;
+SELECT * FROM keycard_logs  LIMIT 5;
+SELECT * FROM calls         LIMIT 5;
+SELECT * FROM alibis        LIMIT 5;
+SELECT * FROM evidence      LIMIT 5;
+```
